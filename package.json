@@ -4,7 +4,8 @@
   "description": "My first electron app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/PLeal7/electron-first/issues"
   },
-  "homepage": "https://github.com/PLeal7/electron-first#readme"
+  "homepage": "https://github.com/PLeal7/electron-first#readme",
+  "devDependencies": {
+    "electron": "^31.1.0"
+  }
 }
